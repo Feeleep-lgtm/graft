@@ -1,0 +1,386 @@
+{
+  "exported_at": "2026-11-02T07:00:00+01:00",
+  "workspace": {
+    "name": "Tilden",
+    "domains": ["tilden.ng"]
+  },
+  "users": [
+    { "id": "u_amaka", "name": "Amaka Obi", "email": "amaka.obi@tilden.ng", "role": "rep" },
+    { "id": "u_seun", "name": "Seun Adeleke", "email": "seun.adeleke@tilden.ng", "role": "rep" },
+    { "id": "u_funke", "name": "Funke Bello", "email": "funke.bello@tilden.ng", "role": "manager" }
+  ],
+  "threads": [
+    {
+      "id": "t_001",
+      "inbox_owner": "u_amaka",
+      "subject": "Pricing for the 40 seats",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Ade Okoro", "email": "ade.okoro@kova.africa" }
+      ],
+      "messages": [
+        {
+          "id": "m_001_1",
+          "from": "ade.okoro@kova.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-21T09:12:00+01:00",
+          "body": "Hi Amaka,\n\nThanks for the walkthrough yesterday. Team liked it, especially the part where it picks up the WhatsApp threads.\n\nCan you send pricing for 40 seats? We'd start with the sales team and bring in customer success in Q1 if it goes well.\n\nAde"
+        },
+        {
+          "id": "m_001_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["ade.okoro@kova.africa"],
+          "sent_at": "2026-10-21T14:40:00+01:00",
+          "body": "Hi Ade,\n\nGood to hear. 40 seats on annual comes to ₦5,520,000 for the year. Monthly would be ₦540,000 but you lose the 15%.\n\nI've attached the breakdown. Happy to walk Tunde through the security section if he wants it.\n\nAmaka"
+        },
+        {
+          "id": "m_001_3",
+          "from": "ade.okoro@kova.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-27T11:02:00+01:00",
+          "body": "Got it, thanks. Taking this to finance on Thursday. Tunde has one question about where the data sits, I'll loop him in."
+        }
+      ]
+    },
+    {
+      "id": "t_002",
+      "inbox_owner": "u_amaka",
+      "subject": "Re: Demo next week?",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Sarah Adeoye", "email": "s.adeoye@novatech.io" },
+        { "name": "Chidi Nwosu", "email": "chidi@novatech.io" }
+      ],
+      "messages": [
+        {
+          "id": "m_002_1",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["s.adeoye@novatech.io"],
+          "sent_at": "2026-10-28T08:30:00+01:00",
+          "body": "Hi Sarah,\n\nFollowing up on our call. Would Thursday 2pm work for the demo? I'll keep it to 30 minutes.\n\nAmaka"
+        },
+        {
+          "id": "m_002_2",
+          "from": "s.adeoye@novatech.io",
+          "to": ["amaka.obi@tilden.ng"],
+          "cc": ["chidi@novatech.io"],
+          "sent_at": "2026-10-28T17:55:00+01:00",
+          "body": "Thursday works. Adding Chidi, he runs the sales ops side and will have the harder questions.\n\nSarah"
+        }
+      ]
+    },
+    {
+      "id": "t_001",
+      "inbox_owner": "u_amaka",
+      "subject": "Pricing for the 40 seats",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Ade Okoro", "email": "ade.okoro@kova.africa" }
+      ],
+      "messages": [
+        {
+          "id": "m_001_1",
+          "from": "ade.okoro@kova.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-21T09:12:00+01:00",
+          "body": "Hi Amaka,\n\nThanks for the walkthrough yesterday. Team liked it, especially the part where it picks up the WhatsApp threads.\n\nCan you send pricing for 40 seats? We'd start with the sales team and bring in customer success in Q1 if it goes well.\n\nAde"
+        },
+        {
+          "id": "m_001_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["ade.okoro@kova.africa"],
+          "sent_at": "2026-10-21T14:40:00+01:00",
+          "body": "Hi Ade,\n\nGood to hear. 40 seats on annual comes to ₦5,520,000 for the year. Monthly would be ₦540,000 but you lose the 15%.\n\nI've attached the breakdown. Happy to walk Tunde through the security section if he wants it.\n\nAmaka"
+        },
+        {
+          "id": "m_001_3",
+          "from": "ade.okoro@kova.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-27T11:02:00+01:00",
+          "body": "Got it, thanks. Taking this to finance on Thursday. Tunde has one question about where the data sits, I'll loop him in."
+        },
+        {
+          "id": "m_001_4",
+          "from": "tunde.bakare@kova.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "cc": ["ade.okoro@kova.africa"],
+          "sent_at": "2026-10-30T10:15:00+01:00",
+          "body": "Amaka, Tunde here, I handle IT for Kova.\n\nBefore finance signs anything I need to know which region the database sits in and whether anything leaves the country. Do you have a document on this?\n\nRegards,\nTunde Bakare"
+        }
+      ]
+    },
+    {
+      "id": "t_003",
+      "inbox_owner": "u_amaka",
+      "subject": "pipeline review monday",
+      "participants": [
+        { "name": "Funke Bello", "email": "funke.bello@tilden.ng" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Seun Adeleke", "email": "seun.adeleke@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_003_1",
+          "from": "funke.bello@tilden.ng",
+          "to": ["amaka.obi@tilden.ng", "seun.adeleke@tilden.ng"],
+          "sent_at": "2026-10-30T18:22:00+01:00",
+          "body": "Moving the pipeline review to Monday 10am, the Novatech demo clashes with it on Thursday.\n\nAmaka can you have the Kova number updated before then. Seun, same for Brightpay.\n\nF"
+        },
+        {
+          "id": "m_003_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["funke.bello@tilden.ng"],
+          "sent_at": "2026-10-30T18:31:00+01:00",
+          "body": "Will do."
+        }
+      ]
+    },
+    {
+      "id": "t_004",
+      "inbox_owner": "u_amaka",
+      "subject": "The Monday Brief: naira holds, Flutterwave's new licence, and 3 funding rounds",
+      "participants": [
+        { "name": "The Monday Brief", "email": "newsletter@mondaybrief.africa" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_004_1",
+          "from": "newsletter@mondaybrief.africa",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-26T06:00:00+01:00",
+          "body": "Good morning.\n\nThree things today. The naira held under 1,800 for the fourth week running. Flutterwave picked up a PSSP licence in Ghana. And three Lagos startups raised, two of them pre-seed.\n\nFull issue below.\n\nUnsubscribe at any time."
+        }
+      ]
+    },
+    {
+      "id": "t_005",
+      "inbox_owner": "u_amaka",
+      "subject": "Quick question about Tilden's hiring plans",
+      "participants": [
+        { "name": "Daniel Osei", "email": "daniel@reachly.io" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_005_1",
+          "from": "daniel@reachly.io",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-29T13:44:00+01:00",
+          "body": "Hi Amaka,\n\nSaw that Tilden is growing the sales team. We help B2B teams in Lagos cut their time to hire by about half.\n\nWorth 15 minutes next week? I can send over a case study from a company your size first if that's easier.\n\nDaniel\nReachly"
+        },
+        {
+          "id": "m_005_2",
+          "from": "daniel@reachly.io",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-11-02T09:05:00+01:00",
+          "body": "Bumping this in case it got buried. Happy to work around your calendar."
+        }
+      ]
+    },
+    {
+      "id": "t_006",
+      "inbox_owner": "u_amaka",
+      "subject": "Delivery Status Notification (Failure)",
+      "participants": [
+        { "name": "Mail Delivery Subsystem", "email": "mailer-daemon@googlemail.com" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_006_1",
+          "from": "mailer-daemon@googlemail.com",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-31T15:18:00+01:00",
+          "body": "Address not found.\n\nYour message wasn't delivered to i.balogun@orion-digital.ng because the address couldn't be found, or is unable to receive mail.\n\nThe response was:\n550 5.1.1 The email account that you tried to reach does not exist.\n\n----- Original message -----\nSubject: Re: Revised proposal\nTo: i.balogun@orion-digital.ng"
+        }
+      ]
+    },
+    {
+      "id": "t_007",
+      "inbox_owner": "u_amaka",
+      "subject": "Invitation: Tilden <> Novatech demo @ Thu 5 Nov 2026 2pm (WAT)",
+      "participants": [
+        { "name": "Google Calendar", "email": "calendar-notification@google.com" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_007_1",
+          "from": "calendar-notification@google.com",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-28T18:02:00+01:00",
+          "body": "You have been invited to the following event.\n\nTilden <> Novatech demo\nThursday 5 Nov 2026 2:00pm to 2:30pm (WAT)\n\nGuests:\namaka.obi@tilden.ng (organiser)\ns.adeoye@novatech.io\nchidi@novatech.io\n\nJoining info: meet.google.com/xxx-yyyy-zzz"
+        }
+      ]
+    },
+    {
+      "id": "t_008",
+      "inbox_owner": "u_amaka",
+      "subject": "Re: Planmoni rollout",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Ngozi Eze", "email": "ngozieze88@gmail.com" }
+      ],
+      "messages": [
+        {
+          "id": "m_008_1",
+          "from": "ngozieze88@gmail.com",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-20T20:14:00+01:00",
+          "body": "Hello Amaka,\n\nSorry for the delay, I have been in Abuja all week. I am the COO at Planmoni, we spoke briefly at the fintech meetup.\n\nWe are ready to move on this. Kindly send the agreement and I will have our legal look at it. Please use this address, our work mail is having issues."
+        },
+        {
+          "id": "m_008_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["ngozieze88@gmail.com"],
+          "sent_at": "2026-10-21T08:05:00+01:00",
+          "body": "No problem at all. Sending the agreement across this morning. Good to hear from you Ngozi."
+        }
+      ]
+    },
+    {
+      "id": "t_009",
+      "inbox_owner": "u_amaka",
+      "subject": "Re: Revised proposal",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Akinola Daniel", "email": "akin.daniel@orion-digital.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_009_1",
+          "from": "akin.daniel@orion-digital.ng",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-23T12:31:00+01:00",
+          "body": "Amaka,\n\nWe looked at the numbers again. 2.5 is about where we can land for the first year, anything above that has to go to the board and that pushes us into next year.\n\nIf you can meet us there we can sign before the end of next month.\n\nAkin"
+        },
+        {
+          "id": "m_009_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["akin.daniel@orion-digital.ng"],
+          "sent_at": "2026-10-23T16:12:00+01:00",
+          "body": "Understood. Let me see what I can do on ₦2,500,000 and come back to you Monday. One thing that would help, is the 2.5 covering the 18 seats we discussed or the 25?"
+        },
+        {
+          "id": "m_009_3",
+          "from": "akin.daniel@orion-digital.ng",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-24T09:48:00+01:00",
+          "body": "18 for now. We'll add the rest when the Port Harcourt office opens."
+        }
+      ]
+    },
+    {
+      "id": "t_010",
+      "inbox_owner": "u_amaka",
+      "subject": "Signed!",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Bisi Adeyemi", "email": "bisi.adeyemi@carbon.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_010_1",
+          "from": "bisi.adeyemi@carbon.ng",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-14T10:20:00+01:00",
+          "body": "Amaka,\n\nSigned copy attached. Finance will process the invoice this week, our terms are 30 days from receipt.\n\nWho handles onboarding on your side? We'd like to get the team in before the end of the month.\n\nBisi"
+        },
+        {
+          "id": "m_010_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["bisi.adeyemi@carbon.ng"],
+          "sent_at": "2026-10-14T10:48:00+01:00",
+          "body": "Brilliant, thank you Bisi. I'll introduce you to Kelechi today, he runs onboarding and will take it from here."
+        }
+      ]
+    },
+    {
+      "id": "t_011",
+      "inbox_owner": "u_amaka",
+      "subject": "Re: Where we landed",
+      "participants": [
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" },
+        { "name": "Emeka Udo", "email": "emeka.u@kuda.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_011_1",
+          "from": "emeka.u@kuda.ng",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-09T15:03:00+01:00",
+          "body": "Thanks for sending this through. Let me take it to the team and come back to you."
+        },
+        {
+          "id": "m_011_2",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["emeka.u@kuda.ng"],
+          "sent_at": "2026-10-16T09:10:00+01:00",
+          "body": "Hi Emeka, checking in on this. Any thoughts from the team?"
+        },
+        {
+          "id": "m_011_3",
+          "from": "amaka.obi@tilden.ng",
+          "to": ["emeka.u@kuda.ng"],
+          "sent_at": "2026-10-27T08:45:00+01:00",
+          "body": "Hi Emeka, following up again. If the timing is wrong just say and I'll come back to you in the new year, no hard feelings."
+        }
+      ]
+    },
+    {
+      "id": "t_012",
+      "inbox_owner": "u_seun",
+      "subject": "Brightpay contract, final round",
+      "participants": [
+        { "name": "Seun Adeleke", "email": "seun.adeleke@tilden.ng" },
+        { "name": "Ifeoma Chukwu", "email": "ifeoma@brightpay.co" }
+      ],
+      "messages": [
+        {
+          "id": "m_012_1",
+          "from": "ifeoma@brightpay.co",
+          "to": ["seun.adeleke@tilden.ng"],
+          "sent_at": "2026-10-30T14:20:00+01:00",
+          "body": "Seun,\n\nLegal came back with two changes to clause 9 and they want the liability cap raised. Redline attached.\n\nIf you can turn this around by Wednesday we'll sign the same week. The number stays at ₦8,400,000.\n\nIfeoma"
+        }
+      ]
+    },
+    {
+      "id": "t_013",
+      "inbox_owner": "u_seun",
+      "subject": "October invoice and VAT filing",
+      "participants": [
+        { "name": "Olu Adeniyi", "email": "olu@adeniyi-associates.ng" },
+        { "name": "Seun Adeleke", "email": "seun.adeleke@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_013_1",
+          "from": "olu@adeniyi-associates.ng",
+          "to": ["seun.adeleke@tilden.ng"],
+          "sent_at": "2026-11-01T11:30:00+01:00",
+          "body": "Dear Seun,\n\nPlease find attached our invoice for October and the VAT schedule for filing. Kindly revert with the signed copy at your earliest convenience.\n\nThe filing deadline is the 21st.\n\nBest regards,\nOlu Adeniyi\nAdeniyi & Associates"
+        }
+      ]
+    },
+    {
+      "id": "t_014",
+      "inbox_owner": "u_amaka",
+      "subject": "Fwd: Re: Demo next week?",
+      "participants": [
+        { "name": "Chidi Nwosu", "email": "c.nwosu@novatech.io" },
+        { "name": "Amaka Obi", "email": "amaka.obi@tilden.ng" }
+      ],
+      "messages": [
+        {
+          "id": "m_014_1",
+          "from": "c.nwosu@novatech.io",
+          "to": ["amaka.obi@tilden.ng"],
+          "sent_at": "2026-10-29T07:40:00+01:00",
+          "body": "Amaka, Chidi here. Sarah added me to the Thursday call.\n\nWriting from my own address, the chidi@ one goes to a shared box that half the team reads.\n\nTwo things I'll want to see on the day: how it handles a deal that lives entirely in WhatsApp, and what a manager can and cannot see of my inbox. The second one is why we stopped using the last tool.\n\n---------- Forwarded message ----------\nFrom: Sarah Adeoye <s.adeoye@novatech.io>\nSubject: Re: Demo next week?\n\nThursday works. Adding Chidi, he runs the sales ops side and will have the harder questions."
+        }
+      ]
+    }
+  ]
+}

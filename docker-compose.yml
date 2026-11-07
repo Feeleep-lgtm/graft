@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: graft
+      POSTGRES_PASSWORD: graft
+      POSTGRES_DB: graft
+    ports:
+      # 5433 on the host so it doesn't clash with the locally installed Postgres on 5432.
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
