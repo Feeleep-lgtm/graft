@@ -15,20 +15,9 @@ npm run db:seed
 npm run dev          
 ```
 
-
-
-To start from an empty database (users are kept):
-
-```bash
-docker compose exec db psql -U graft -c "TRUNCATE threads, contacts RESTART IDENTITY CASCADE"
 ```
 
-### Where things are
 
-- `src/triage/provider.ts` is the two-model seam (`classify`, `extract`). `src/triage/stub-provider.ts` implements it using the rules in `src/triage/rules.ts`. The provider is swapped in one line in `src/app.ts`.
-- `src/access/deal-accessor.ts` is the only reader of deals. It takes the acting user and applies the scope.
-- `src/ingest/ingest-service.ts` handles duplicates, the two model calls, and the transaction that writes the deal.
-- `src/routes/api.ts` contains the routes. They contain no SQL.
 
 ## Question 1. 
 
